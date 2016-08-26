@@ -1,0 +1,20 @@
+global-css:
+  css:
+    theme:
+      //fonts.googleapis.com/css?family=Oswald:400,700: { type: external }
+      css/style.css: {}
+      //maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css: { type: external, minified: true }
+      //maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css: { type: external, minified: true }
+
+global-js:
+  js:
+    //maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js: { type: external, minified: true }
+  dependencies:
+    - core/jquery
+
+#To use font-awesome, please uncomment these lines, create a new vendor folder (userium/vendor), and place your downloaded Font Awesome files in the vendor folder.
+#font-awesome:
+#  version: x.x.x
+#  css:
+#    theme:
+#      vendor/font-awesome/css/font-awesome.min.css: {}

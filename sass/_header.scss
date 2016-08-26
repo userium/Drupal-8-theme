@@ -1,0 +1,89 @@
+/* Styling for the header */
+
+$break-small: 800px; /* Styling for smaller screens */
+
+.navbar-header {
+	position: relative;
+}
+
+.main-header {
+	height: 120px;
+	display: block;
+	padding-bottom: 20px;
+}
+
+.navlinks {
+	position: absolute;
+	right: 0;
+	background-color: #fff;
+	z-index: 1000;
+ 		li {
+ 			margin: 40px 40px 0 0;
+ 			padding: 0 20px 0 20px;
+	 		a {
+				color: $color1;
+				font-size: 1.2em;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+				&:hover {
+					color: #000;
+					border-radius: 5px;
+				}
+			}
+			.is-active {
+					border-bottom: 1px solid $color1;
+			}
+		}
+}
+
+.logo img {
+	margin: 10px;
+	max-width: 100px;
+	display: inline;
+}
+
+/* Styling for mobile */
+
+@media (max-width: $break-small) {
+	.navlinks {
+		margin: -20px -40px 0 0;
+	}
+}
+
+/* Styling for the page--front.html.twig */
+
+.jumbotron-first {
+		padding: 0px;
+		width: 100%; 
+		height: 600px;
+		background: url("../img/cabin.png") no-repeat;
+		position: relative;		
+		background-size: cover;
+		margin-top: 20px;
+		-webkit-filter: grayscale(1);
+		-webkit-filter: grayscale(100%);
+		filter: gray;
+		filter: grayscale(100%);
+		z-index: -1000;
+		@media (max-width: $break-small) {
+		    display: none;
+		}
+}
+
+.jumbotron.jumbotron-second {
+		padding: 0px;
+		width: 100%; 
+		height: 600px;
+		background: url("../img/poro.png") no-repeat;
+		position: relative;		
+		background-size: cover;
+		margin-top: 20px;
+		-webkit-filter: grayscale(1);
+		-webkit-filter: grayscale(100%);
+		filter: gray;
+		filter: grayscale(100%);
+		z-index: -1000;
+		@media (max-width: $break-small) {
+		    display: none;
+		}
+}

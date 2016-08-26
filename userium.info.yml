@@ -1,0 +1,18 @@
+name: Userium
+description: Drupal 8 theme
+type: theme
+core: 8.x
+libraries:
+  - userium/global-css
+  - userium/global-js
+# To use font-awesome, please uncomment the line below
+# - userium/font-awesome
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer_first: 'Footer First'
+  footer_second: 'Footer Second'
+  sidebar: 'Sidebar'
+  sidebar_blog: 'Sidebar Blog'
+  about: 'About'

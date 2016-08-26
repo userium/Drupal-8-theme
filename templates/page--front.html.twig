@@ -1,0 +1,25 @@
+{% include directory ~ '/partials/header.html.twig' %}
+
+  <div class="jumbotron jumbotron-first">
+  </div>
+
+<div class="container">
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+    <div>
+      <div class="col-md-8 col-md-offset-1 article-list">{{ page.content }}</div>
+      <div class="col-md-3 sidebar">{{ page.sidebar }}</div>
+    </div>{# /.layout-content #}
+
+  </main>
+</div>{# /.container #}
+
+<div class="jumbotron jumbotron-second">
+</div>
+
+{% include directory ~ '/partials/footer.html.twig' %}
+
+
+ 

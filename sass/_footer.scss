@@ -1,0 +1,45 @@
+/* Styling for the footer */
+
+.social-media li {
+	list-style-type: none;
+	display: inline;
+	float: right;
+	padding: 20px 20px 60px 20px;
+}
+
+.fa.fa-twitter, .fa.fa-facebook, .fa.fa-linkedin {
+	color: $color1;
+    font-size: 2em;
+}
+
+.copyright {
+	padding-top: 20px;
+	padding-bottom: 60px;
+	color: #222;
+}
+
+hr {
+  clear: both;
+  float: none;
+  width: 100%;
+  height: 1px;
+  margin: 1.4em 0;
+  border: none;
+  background: #ddd;
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      right bottom,
+      color-stop(0, rgb(255,255,255)),
+      color-stop(0.1, rgb(221,221,221)),
+      color-stop(0.9, rgb(221,221,221)),
+      color-stop(1, rgb(255,255,255))
+  );
+  background-image: -moz-linear-gradient(
+      left center,
+      rgb(255,255,255) 0%,
+      rgb(221,221,221) 10%,
+      rgb(221,221,221) 90%,
+      rgb(255,255,255) 100%
+  );
+}

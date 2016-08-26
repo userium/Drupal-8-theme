@@ -1,0 +1,145 @@
+/* Styling for articles */
+
+.field-content {
+	a {
+		color: #464646;
+		text-decoration: none;
+	}
+
+	p {
+		line-height: 1.5;
+	}
+}
+
+.custom-row {
+    p {
+    	line-height: 1.5;
+		font-size: 1.2em;
+		color: #555;
+    }
+}
+
+.biggutter {
+	padding: 0 60px 0 60px;
+}
+
+.article-list {
+	padding-right: 100px;
+}
+
+.articletitle {
+	margin-top: 50px;
+}
+
+.readlink {
+	margin-bottom: 90px;
+	a {
+		color: $color1;
+		text-decoration: none;
+		float: right;
+	}
+}
+
+.js-quickedit-page-title {
+	margin-top: 30px;
+}
+
+.articletitle {
+	margin-bottom: 20px;
+	a {
+		margin-bottom: 20px;
+	}
+}
+
+.adminmenu li {
+	display: inline;
+	margin: 0 20px;
+	font-size: 1.1em;
+}
+
+.article-image img {
+		padding: 0px;
+		width: 100%; 
+		position: relative;		
+		background-size: cover;
+		margin-top: 20px;
+		z-index: -1000;
+		@media (max-width: $break-small) {
+		    display: none;
+		}
+}
+
+.blog {
+	margin-top: 20px; 
+	p {
+		line-height: 1.5;
+		font-size: 1.3em;
+		color: #555;
+	}
+}
+
+.blogtitle {
+	text-transform: uppercase;
+}
+
+p.date {
+	color: #ccc;
+}
+
+.jumbotron.jumbotron-fourth {
+		padding: 0px;
+		width: 100%; 
+		height: 600px;
+		background: url("../img/snowboard.png") no-repeat;
+		position: relative;		
+		background-size: cover;
+		margin-top: 20px;
+		-webkit-filter: grayscale(1);
+		-webkit-filter: grayscale(100%);
+		filter: gray;
+		filter: grayscale(100%);
+		z-index: -1000;
+		@media (max-width: $break-small) {
+		    display: none;
+		}
+}
+
+
+/* Styling for comments */
+
+.js-form-item label {
+	font-size: 1.2em;
+	color: #777;
+	margin: 15px 15px 15px 0;
+}
+
+.comment-buttons {
+	margin: 20px 10px 0 0;
+}
+
+.read-comment {
+	margin: 7px 15px 7px 15px;
+	font-size: 1.2em;
+}
+
+.custom-links {
+	.comment-add {
+		font-size: 1.2em;
+		margin: 20px 0 0 -35px;
+		a:visited {
+			color: #ccc;
+		}
+	}
+	li {
+		display: inline;
+		margin: 10px;
+	}
+}
+
+.cke_top {
+	background: $color1;
+}
+
+.btn {
+	margin-bottom: 20px;
+}
