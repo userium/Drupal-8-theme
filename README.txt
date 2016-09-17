@@ -26,7 +26,7 @@ INSTALLATION
 3. Login to the site and click on "Appearance" in the Administration menu.
 4. Click on "Install and set as default" next to the Userium theme.
 
-HOW TO USE INSTALL FONT AWESOME
+HOW TO INSTALL FONT AWESOME
 ------------------------
 1. Uncomment lines from userium.libraries.yml
 2. Create a vendor folder (userium/vendor)
